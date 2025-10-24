@@ -28,6 +28,8 @@ var gridLayout: [GridItem] {
 }
 
 // UX
+
+let haptics = UIImpactFeedbackGenerator(style: .medium)
 // API
 // IMAGE
 // FONT
