@@ -20,6 +20,6 @@ struct Product: Codable, Identifiable {
     var blue: Double { color[2] }
     
     var formattedPrice: String {
-        return String(format: "%.0f", price)
+        return "$" + String(format: "%.0f", price)
     }
 }
